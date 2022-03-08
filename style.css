@@ -26,9 +26,15 @@ p, h2, label{
   flex-direction: column;
   margin: 2% 25% auto;
 }
+
 .media>div>label{
   text-align: start;
-  padding: 2% 0% 0%;
+  padding: 2% 0 0;
+}
+
+#calcular{
+  background: yellow;
+  margin: 2% 0 0;
 }
 
 .page-title {
