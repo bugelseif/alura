@@ -10,8 +10,8 @@ function media(){
             document.getElementsByTagName("h2")[1].innerHTML = "Reveja as notas";
             break;
         }else{
-        soma += parseFloat(notas[i].value);
-        document.getElementsByTagName("h2")[1].innerHTML = "A média é: " + soma/4;
+            soma += parseFloat(notas[i].value);
+            document.getElementsByTagName("h2")[1].innerHTML = "A média é: " + soma/4;
         }
     }        
 }
