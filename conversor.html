@@ -5,23 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Imersão Dev Alura</title>
 </head>
 <body>
     <div class="container">
-        <h1 class="page-title">
-          Conversor de moedas
-        </h1>
-        <p class="page-subtitle">
-          Descubra os valores em dolar U$
-        </p>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
-        <label for="moeda">Insira o valor</label><br>
-        <input type="number" id="valor" size="2" /><br>
-        <button type="submit" onclick="Converter()">Converter</button>
-        <h2 id="valorConvertido"></h2>
-      </div>
-      <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        <header>
+            <h1 class="page-title">
+                Conversor de moedas
+            </h1>
+            <p class="page-subtitle">
+                Descubra os valores em dolar U$
+            </p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        </header>
+        <div class="conversor">
+            <h2>Insira o valor em dollar</h2>
+            <div>
+                <input type="number" id="valor"/><br>
+                <input type="button" value="converte" id="converte">
+                <h2 id="valorConvertido"></h2>
+            </div>
+            
+        </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    <script src="conversor.js"></script>
 </body>
 </html>
