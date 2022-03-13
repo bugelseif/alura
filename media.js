@@ -1,4 +1,4 @@
-const botao = document.getElementById("calcular");
+const botao = document.getElementById("media");
 botao.addEventListener("click", media)
 
 function media(){
