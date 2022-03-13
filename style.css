@@ -41,6 +41,12 @@ p, h2, label{
   margin: 2% 25% auto;
 }
 
+.adivinha>div{
+  display: flex;
+  flex-direction: column;
+  margin: 2% 25% auto;
+}
+
 .links{
   display: flex;
   flex-direction: column;
@@ -59,7 +65,12 @@ p, h2, label{
 }
 
 #media, #converte{
+  margin: 2% 0 0;
   background: yellow;
+}
+
+#adivinha{
+  background: #2378da;
   margin: 2% 0 0;
 }
 
