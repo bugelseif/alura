@@ -74,6 +74,11 @@ p, h2, label{
   margin: 2% 0 0;
 }
 
+.filme{
+  width: 200px;
+  margin: 1% 1%;
+}
+
 .page-title {
   color:#ffffff;
   margin: 0 0 5px;
